@@ -1,4 +1,4 @@
-# Xiaochi IoT Hub Companion Bot
+#  IoT Hub Companion Bot
 
 A smart companion desktop bot built on **ESP32** that helps you stay productive, healthy, and connected.  
 It combines **Pomodoro focus timers**, **alarms**, **hydration reminders**, **weather updates**, and **IoT home appliance control** into one interactive system with a TFT display and BLE notifications.
@@ -26,10 +26,6 @@ It combines **Pomodoro focus timers**, **alarms**, **hydration reminders**, **we
 - **BLE Notifications**
   - Receives and stores up to 5 Bluetooth notifications.
   - Scrollable notification hub on the TFT screen.
-
-- **Dual ESP32 AI Handshake**
-  - Hardware-controlled wake/reset sequence for a secondary ESP32 AI engine.
-  - LED indicators for AI activity.
 
 - **Interactive TFT UI**
   - Rotary encoder navigation with press/long-press actions.
