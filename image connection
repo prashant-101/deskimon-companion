@@ -1,0 +1,21 @@
+#ifndef IMAGE1_H
+#define IMAGE1_H
+
+#include <stdint.h>
+
+typedef struct {
+    const uint16_t *data;
+    uint16_t width;
+    uint16_t height;
+} tImage;
+
+// Main background image (Screen 0)
+extern const uint16_t mercy[255 * 255];
+
+// 16-bit grid menu icon arrays (Screen 1)
+extern const uint16_t focus[50 * 50];   
+extern const uint16_t home_assistance[50 * 50];   
+extern const uint16_t notification[50 * 50];   
+extern const uint16_t xiaochi_ai[50 * 50];   
+
+#endif
