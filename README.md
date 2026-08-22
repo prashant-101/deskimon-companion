@@ -62,3 +62,12 @@ It combines **Pomodoro focus timers**, **alarms**, **hydration reminders**, **we
    const char* password = "YOUR_PASSWORD";
 
 pins and connection
+
+VCC	3.3V	Power supply (do not use 5V)
+GND---	GND	Ground
+CS---	GPIO 5	Chip Select (can be changed in setup)
+RESE----T	GPIO 4	Reset line
+DC ----(RS)	GPIO 2	Data/Command select
+MOSI------	GPIO 23	SPI MOSI (data out from ESP32)
+SCK-----	GPIO 18	SPI clock
+MISO	------Not used	Most TFT displays don’t use MISO unless touch controller is present
