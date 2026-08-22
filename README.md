@@ -3,9 +3,9 @@
 A smart companion desktop bot built on **ESP32** that helps you stay productive, healthy, and connected.  
 It combines **Pomodoro focus timers**, **alarms**, **hydration reminders**, **weather updates**, and **IoT home appliance control** into one interactive system with a TFT display and BLE notifications.
 
----
 
-## ✨ Features
+
+ Features
 
 - **Pomodoro Timer & Alarm**
   - Set focus sessions (1h, 2h, 3h) with automatic break cycles.
@@ -31,9 +31,7 @@ It combines **Pomodoro focus timers**, **alarms**, **hydration reminders**, **we
   - Rotary encoder navigation with press/long-press actions.
   - Multiple screens: Home, Focus, Alarm, IoT Control, Notifications, AI Mode.
 
----
-
-## 🛠️ Hardware Requirements
++++ Hardware Requirements
 
 - ESP32 (primary + optional secondary for AI engine)
 - TFT display (SPI, using `TFT_eSPI`)
@@ -42,9 +40,9 @@ It combines **Pomodoro focus timers**, **alarms**, **hydration reminders**, **we
 - Wi-Fi network
 - BLE-enabled device (for notifications)
 
----
 
-## 📦 Libraries Used
+
+📚 Libraries Used
 
 - `WiFi.h` – Wi-Fi connectivity
 - `HTTPClient.h` – REST API calls
@@ -53,9 +51,8 @@ It combines **Pomodoro focus timers**, **alarms**, **hydration reminders**, **we
 - `BLEDevice.h`, `BLEServer.h`, `BLEUtils.h` – Bluetooth Low Energy
 - `time.h` – NTP time synchronization
 
----
-
-## ⚙️ Setup
+⚙️
+ Setup
 
 1. Clone the repository and open in Arduino IDE / PlatformIO.
 2. Install required libraries.
@@ -64,3 +61,4 @@ It combines **Pomodoro focus timers**, **alarms**, **hydration reminders**, **we
    const char* ssid     = "YOUR_SSID";
    const char* password = "YOUR_PASSWORD";
 
+pins and connection
